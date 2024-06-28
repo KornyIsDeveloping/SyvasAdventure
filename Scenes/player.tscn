@@ -1,6 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://buxhpeavwqmtu"]
+[gd_scene load_steps=10 format=3 uid="uid://buxhpeavwqmtu"]
 
 [ext_resource type="Texture2D" uid="uid://bil0yjb3qttil" path="res://Assets/Sprites/SyvaIdleSprite.png" id="1_aslle"]
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_m2i1q"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mpulf"]
 atlas = ExtResource("1_aslle")
@@ -49,6 +50,7 @@ animations = [{
 size = Vector2(14, 14)
 
 [node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_m2i1q")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -8)
@@ -56,7 +58,7 @@ sprite_frames = SubResource("SpriteFrames_igywd")
 animation = &"SyvaIdle"
 autoplay = "SyvaIdle"
 frame = 4
-frame_progress = 0.663822
+frame_progress = 0.358824
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, -9)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jv6vau0amrwi"
-path="res://.godot/imported/tileset_groundTileMap.png-3ccd94a7292371b3efe4f1efb68a4460.ctex"
+uid="uid://bsr82sx76sfg8"
+path="res://.godot/imported/woolBall.png-eb30c866f037edef83252aa617ecc2f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/tileset_groundTileMap.png"
-dest_files=["res://.godot/imported/tileset_groundTileMap.png-3ccd94a7292371b3efe4f1efb68a4460.ctex"]
+source_file="res://Assets/woolBall.png"
+dest_files=["res://.godot/imported/woolBall.png-eb30c866f037edef83252aa617ecc2f1.ctex"]
 
 [params]
 

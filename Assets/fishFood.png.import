@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://uidkejgdljm8"
-path="res://.godot/imported/tileset_mudTileMap.png-80d63f5dd72ac5b45bbc670a58152f78.ctex"
+uid="uid://ci7jloeyrf8uh"
+path="res://.godot/imported/fishFood.png-dbb4635c6372db39f56bef00bd7599d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/tileset_mudTileMap.png"
-dest_files=["res://.godot/imported/tileset_mudTileMap.png-80d63f5dd72ac5b45bbc670a58152f78.ctex"]
+source_file="res://Assets/fishFood.png"
+dest_files=["res://.godot/imported/fishFood.png-dbb4635c6372db39f56bef00bd7599d8.ctex"]
 
 [params]
 
