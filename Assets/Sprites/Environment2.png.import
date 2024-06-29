@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bsr82sx76sfg8"
-path="res://.godot/imported/woolBall.png-eb30c866f037edef83252aa617ecc2f1.ctex"
+uid="uid://cs6pajv33kud"
+path="res://.godot/imported/Environment2.png-683380017dfa3ec61c900bade6427efb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/woolBall.png"
-dest_files=["res://.godot/imported/woolBall.png-eb30c866f037edef83252aa617ecc2f1.ctex"]
+source_file="res://Assets/Sprites/Environment2.png"
+dest_files=["res://.godot/imported/Environment2.png-683380017dfa3ec61c900bade6427efb.ctex"]
 
 [params]
 
