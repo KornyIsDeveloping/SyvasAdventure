@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ci7jloeyrf8uh"
-path="res://.godot/imported/fishFood.png-0774000cd63e0562059cc413766d69ba.ctex"
+uid="uid://deleugh4ulv1p"
+path="res://.godot/imported/wollBallSprite.png-fe63829a2017124dfc969ea93a9628f7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/fishFood.png"
-dest_files=["res://.godot/imported/fishFood.png-0774000cd63e0562059cc413766d69ba.ctex"]
+source_file="res://Assets/Sprites/wollBallSprite.png"
+dest_files=["res://.godot/imported/wollBallSprite.png-fe63829a2017124dfc969ea93a9628f7.ctex"]
 
 [params]
 

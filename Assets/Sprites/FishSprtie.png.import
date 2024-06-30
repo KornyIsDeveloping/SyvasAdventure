@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2qotqgb26m6t"
-path="res://.godot/imported/woolBall.png-8e12bf5b8202e854d72f31e39daadb00.ctex"
+uid="uid://t3nybiht75ua"
+path="res://.godot/imported/FishSprtie.png-d53bc6413b91fa7138ebfc6e8cab1be0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/woolBall.png"
-dest_files=["res://.godot/imported/woolBall.png-8e12bf5b8202e854d72f31e39daadb00.ctex"]
+source_file="res://Assets/Sprites/FishSprtie.png"
+dest_files=["res://.godot/imported/FishSprtie.png-d53bc6413b91fa7138ebfc6e8cab1be0.ctex"]
 
 [params]
 

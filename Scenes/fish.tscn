@@ -1,0 +1,61 @@
+[gd_scene load_steps=9 format=3 uid="uid://3yr6lkhrpwum"]
+
+[ext_resource type="Texture2D" uid="uid://t3nybiht75ua" path="res://Assets/Sprites/FishSprtie.png" id="1_xhgyv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pvyoc"]
+atlas = ExtResource("1_xhgyv")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b5kse"]
+atlas = ExtResource("1_xhgyv")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hv0k4"]
+atlas = ExtResource("1_xhgyv")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kres1"]
+atlas = ExtResource("1_xhgyv")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7sdfw"]
+atlas = ExtResource("1_xhgyv")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8f6kd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pvyoc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b5kse")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hv0k4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kres1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7sdfw")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hi6by"]
+radius = 3.0
+height = 14.0
+
+[node name="Fish" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_8f6kd")
+autoplay = "default"
+frame_progress = 0.773596
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 0.733038
+shape = SubResource("CapsuleShape2D_hi6by")
